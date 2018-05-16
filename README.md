@@ -13,7 +13,7 @@ request is handled at a time.  Payments are created with the allowed set of coin
 
 ## Getting Started
 
-Check out project
+git clone git@github.com:mdecourci/vending-machine.git
 
 ### Installing
 
@@ -32,22 +32,35 @@ java -jar target/vending-machine-1.0-SNAPSHOT.jar
 java -jar target/vending-machine-1.0-SNAPSHOT.jar
 
 Select user; 1:consumer, 2:supplier
+
 1
+
 1:Change user 
+
 2:Make payment 
+
 3:Cancel last request 
+
 4:Exit 
+
 2
+
 Make payment for CANDY = 10p, SNACK = 50p, NUTS = 75p, Coke = 150p, Bottle Water = 100p
+
 Accepted coins in pence are : 1, 5, 20, 50, 100
+
 20
 
 Select product(price): 1:CANDY (10), 2:SNACK (50), 3:NUTS (75), 4:Coke (150), 5:Bottle Water (100))
+
 1
 
 Selected product is CANDY with change 10 pence
 
 1:Change user 
+
 2:Make payment 
+
 3:Cancel last request 
+
 4:Exit 
